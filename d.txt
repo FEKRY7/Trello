@@ -1,0 +1,25 @@
+Board model:
+
+Only the board creator should be able to delete or edit the board.
+Only board members should be able to get the board.
+When creating a new board, the creator should be added to the board's members list.
+List model:
+
+Only the list creator or allowed user should be able to edit or delete the list.
+Only board members should be able to get the list.
+Before creating a new list, it should be checked to see if the board that it is being added to exists.
+Card model:
+
+Only the card creator or allowed user should be able to edit or delete the card.
+Only board members should be able to get the card.
+Before creating a new card, it should be checked to see if the list that it is being added to exists.
+Comment model:
+
+Only the comment creator or allowed user should be able to edit or delete the comment.
+Only board members should be able to get the comment.
+Before creating a new comment, it should be checked to see if the card that it is being added to exists.
+Attachment model:
+
+Only the attachment creator or allowed user should be able to delete the attachment.
+Only board members should be able to get the attachment.
+Before creating a new attachment, it should be checked to see if the card that it is being added to exists.
