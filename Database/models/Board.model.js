@@ -25,7 +25,6 @@ const BoardSchema = new mongoose.Schema({
   }]
 }, { timestamps: true })
 
-//p
 
 const BoardModel = mongoose.model("Board", BoardSchema)
 
