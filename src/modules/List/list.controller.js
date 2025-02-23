@@ -93,7 +93,7 @@ const UpdateList = async (req, res, next) => {
     if (!board.teams.includes(req.user._id))
       return First(
         res,
-        "You are not authorized to create lists on this board.",
+        "You are not authorized to update lists on this board.",
         403,
         http.FAIL
       );
